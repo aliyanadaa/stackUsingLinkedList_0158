@@ -24,7 +24,10 @@ public:
         top = NULL;
     }
 
-    int push(int value)
-    {
-        
+int push(int value)
+{
+    Node *newNode = new Node();
+}
+
+
 };
