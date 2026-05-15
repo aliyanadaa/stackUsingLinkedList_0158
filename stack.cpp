@@ -31,6 +31,7 @@ int push(int value)
     newNode->next = top;
     top = newNode;
     cout << "Push Value : " << value << endl;
+    return value;
 }
 
 };
