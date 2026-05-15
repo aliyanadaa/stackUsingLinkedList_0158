@@ -47,5 +47,8 @@ void pop()
     }
 
     cout << "Popped value: " << temp->data << endl;
+    top = temp->next;
 }
+
+
 };
